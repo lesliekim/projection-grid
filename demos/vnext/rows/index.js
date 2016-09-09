@@ -96,6 +96,7 @@ window.gridView = pgrid.factory({ vnext: true }).create({
   },{
     name: 'ShipCity',
     sortable: true,
+    editable: true,
   }],
   events: {
     'click th.column-header': (e) => console.log(e.target),
